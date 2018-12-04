@@ -1,9 +1,9 @@
 <template>
   <div>
     <h1>
-      Welcome in NewsDesk
+      World Cup
     </h1>
-    <Newsfeed/>
+    <Newsfeed query='world cup'/>>
   </div>
 </template>
 
@@ -11,8 +11,8 @@
 import Newsfeed from '@/components/newsfeed';
 
 export default {
-  name: 'Home',
-  components: {
+  name: 'WorldCup',
+    components: {
     Newsfeed
   }
 };
